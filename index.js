@@ -1,8 +1,8 @@
 const readline = require("readline-sync");
 
-const input = readline.question("Welcome to UrlEncodeNdDecode.\n\nEnter Your String and press Enter\n");
+const input = readline.question("Welcome to UrlEncodeNdDecode.\n\nEnter Your String and Press Enter\n");
 
-const choice = readline.question("\nEnter 1 to Encode\nEnter 2 to decode\n");
+const choice = readline.question("\nEnter 1 to Encode\nEnter 2 to Decode\n");
 
 if(choice==1)
 {
@@ -14,4 +14,4 @@ else if(choice==2)
 }
 
 else
-console.log("Enter a valid option");
+console.log("Enter a Valid Option!");
